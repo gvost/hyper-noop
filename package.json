@@ -1,0 +1,23 @@
+{
+  "name": "noop",
+  "version": "0.0.1",
+  "description": "Noop theme for Hyper dawg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvost/hyper-noop.git"
+  },
+  "keywords": [
+    "hyper",
+    "theme"
+  ],
+  "author": "gvost <davidjohnson1297@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvost/hyper-noop/issues"
+  },
+  "homepage": "https://github.com/gvost/hyper-noop#readme"
+}
