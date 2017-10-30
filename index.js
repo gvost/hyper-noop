@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports.onWindow = browserWindow => browserWindow.setVibrancy("dark");
-
 const foregroundColor = '#F4F2F2';
 const backgroundColor = 'rgba(20, 27, 30, .65)';
 const black = '#141B1E';
@@ -16,6 +14,7 @@ const brightWhite = '#FFFFFF';
 const brightBlack = '#000000';
 const cursorColor = 'rgba(106, 159, 222, 0.5)';
 const borderColor = 'rgba(20, 27, 30, 0)';
+const headerBackground = 'rgba(0, 0, 0, .25)';
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -54,18 +53,19 @@ exports.decorateConfig = config => {
       }
       .header_header {
         border: none !important;
-        background-color: rgba(0, 0, 0, .25)!important;
-        border-bottom: 1px solid rgb(20, 27, 30);
+        background-color: ${headerBackground}!important;
+        border-bottom: 1px solid ${black};
       }
       .tab_tab {
-        border-right: 1px solid rgb(20, 27, 30);
+        border-right: 1px solid ${black};
       }
       .tab_textActive {
-        color: #FDED8D;
+        color: ${yellow};
       }
       .tab_textActive > .tab_textInner {
         text-decoration: underline;
         font-style: italic;
+        color: ${yellow};
       }
     `
   });
