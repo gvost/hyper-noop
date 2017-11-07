@@ -1,6 +1,6 @@
 {
   "name": "hypernoop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Noop theme for Hyper dawg.",
   "main": "index.js",
   "scripts": {
